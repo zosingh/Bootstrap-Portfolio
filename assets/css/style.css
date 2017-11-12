@@ -1,0 +1,178 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	background-image: url('../images/stressed_linen.png');
+}
+
+h1 {
+	font-weight: solid;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3, a{
+	font-weight: solid;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+form {
+	font-family: font-family: 'Sumana', serif;
+}
+
+a:hover{
+	color: #4F95DD;
+	text-shadow: 2px 4px 10px black;
+}
+
+a:active{
+	color: #ff0000;
+	text-shadow: 2px 4px 10px gold;
+}
+
+a:focus{
+	color: #000000;
+	text-shadow: 2px 4px 10px white;
+}
+
+header{
+	background-color: #ffffff;
+	border-bottom: 2px #CCCCCC solid;
+
+}
+
+#navbar-brand{
+	position: relative;
+	left: 10px;
+	z-index: 10;
+	color: white;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav{
+	display: inline;
+    align-items: center;
+	justify-content: center;
+}
+
+.main-content{
+	background-color: white;
+	border: 2px #CCCCCC solid; 
+	position: absolute;
+}
+
+#form{
+	width: 550px;
+	padding-bottom: 25px;
+}
+
+.main-header{
+	color: #000000;
+	border-bottom: 3px #DDDDDD solid;
+	padding: 15px 15px 15px 15px;
+}
+
+.caption{
+	width:100%;
+	background-color: #000000;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+	font-family: 'Indie Flower', cursive;
+}
+
+#pic{
+	padding: 30px 20px 20px 25px;
+}
+
+#about{
+	line-height: 200%;
+	font-family: 'Rozha One', serif;
+}
+
+form{
+	padding: 10px 20px 10px 30px;
+	width: 100%;
+}
+
+#connect{
+	background-color: white;
+	position: absolute;
+	width: 270px;
+	border: 2px #CCCCCC solid; 
+}
+
+#connect-with-me{
+	padding: 30px 0px 20px 0px;
+	text-align: center;
+	border-bottom: 2px #DDDDDD solid;
+}
+
+.form-control{
+	color:#777777;
+	line-height: 40%;
+}
+
+.connectImages{
+	padding-bottom: 20px;
+	padding-right: 3px;
+	border-bottom: 2px white solid;
+}
+
+.connectImages:hover{
+	border-bottom: 2px #4F95DD solid; 
+}
+
+#linkedin{
+	width:70px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+#github{
+	width: 70px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+#stackoverflow{
+	width: 70px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+footer{
+	width: 100%;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	top: 1100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	border-top: 5px #000000 solid;
+}
+
+#footer{
+	top: 950%;
+}
+
+#copyright{
+	color: black;
+}
